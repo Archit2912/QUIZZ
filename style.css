@@ -1,0 +1,32 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Quiz option styling */
+.option {
+    display: block;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Hover effect */
+.option:hover {
+    background-color: #eff6ff;
+    border-color: #3b82f6;
+}
+
+/* Radio button spacing */
+.option input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* Disabled submit button */
+button:disabled {
+    cursor: not-allowed;
+}
